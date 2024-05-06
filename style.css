@@ -1,0 +1,82 @@
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+body {
+  background-color: #FFF2D7;
+  font-family: Dancing Script;
+  color: #E1ACAC;
+  font-size: 18px;
+  text-align: center;
+}
+
+header {
+  color: #A87676;
+  margin-top: 20px;
+}
+
+a:hover {
+  background-color: white;
+  color: #AD88C6;
+}
+
+.card {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.btn-wagon {
+  padding: 10px 15px;
+  color: white;
+  background-color: #AD88C6;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 30px;
+  color: black;
+  margin: 30px 30px;
+  padding-left: 0px;
+}
+
+li {
+  padding: 10px 15px;
+  margin: 15px 15px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
